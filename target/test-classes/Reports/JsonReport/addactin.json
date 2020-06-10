@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43269500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "TO varify login with valid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-addactin-app;to-varify-login-with-valid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 726900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39422552000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user has to be there in login page",
+            "match": {
+              "location": "Stepdefinition.user_has_to_be_there_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465628600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should enter \"singh123456\" and \"singh@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "singh123456",
+                  "offset": 19
+                },
+                {
+                  "val": "singh@123456",
+                  "offset": 37
+                }
+              ],
+              "location": "Stepdefinition.user_should_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4597604100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to click on login page",
+            "match": {
+              "location": "Stepdefinition.user_has_to_click_on_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 292800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "To validate the search Functionlity with valid data",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-addactin-app;to-validate-the-search-functionlity-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 296100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18704558900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User has to be there at login page",
+            "match": {
+              "location": "Stepdefinition.user_has_to_be_there_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5214743800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to enter valid \"singh123456\" and \"singh@123456\" and click on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "singh123456",
+                  "offset": 25
+                },
+                {
+                  "val": "singh@123456",
+                  "offset": 43
+                }
+              ],
+              "location": "Stepdefinition.user_has_to_enter_valid_and_and_click_on_login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1859654300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to select Location",
+            "match": {
+              "location": "Stepdefinition.user_has_to_select_Location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476939700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to select\tHotels",
+            "match": {
+              "location": "Stepdefinition.user_has_to_select_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432998700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to selectno of Rooms",
+            "match": {
+              "location": "Stepdefinition.user_has_to_selectno_of_Rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165643300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user has to select Adult as per Room",
+            "match": {
+              "location": "Stepdefinition.user_has_to_select_Adult_as_per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183630100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to select children per Room",
+            "match": {
+              "location": "Stepdefinition.user_has_to_select_children_per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1737868400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User has to click on search button",
+            "match": {
+              "location": "Stepdefinition.user_has_to_click_on_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of Addactin app",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-addactin-app",
+    "keyword": "Feature",
+    "uri": "Feature/Login.feature"
+  }
+]

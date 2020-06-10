@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="57.843549">
+<testcase classname="To validate the login functionality of Addactin app" name="TO varify login with valid username and password" time="23.590053">
+<system-out><![CDATA[Given user has to be there in login page....................................passed
+When user should enter "singh123456" and "singh@123456".....................passed
+And user has to click on login page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of Addactin app" name="To validate the search Functionlity with valid data" time="34.253496">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 8&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-57D0HIN', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)&#13;&#10;&#9;at com.base.Base.SBI(Base.java:35)&#13;&#10;&#9;at com.stepdefinition.Stepdefinition.user_has_to_select_children_per_Room(Stepdefinition.java:75)&#13;&#10;&#9;at ✽.And user has to select children per Room(Feature/Login.feature:18)&#13;&#10;"><![CDATA[Given User has to be there at login page....................................passed
+When user has to enter valid "singh123456" and "singh@123456" and click on login.passed
+And user has to select Location.............................................passed
+And user has to select	Hotels...............................................passed
+And user has to selectno of Rooms...........................................passed
+And user has to select Adult as per Room....................................passed
+And user has to select children per Room....................................failed
+Then User has to click on search button.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 8
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-57D0HIN', ip: '192.168.43.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.base.Base.SBI(Base.java:35)
+	at com.stepdefinition.Stepdefinition.user_has_to_select_children_per_Room(Stepdefinition.java:75)
+	at ✽.And user has to select children per Room(Feature/Login.feature:18)
+]]></failure>
+</testcase>
+</testsuite>
